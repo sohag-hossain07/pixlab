@@ -22,10 +22,197 @@
   </head>
   <body>
     <!-- header section starts -->
-    <header></header>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container border-bottom border-1 border-light-subtle py-4">
+          <a class="navbar-brand" href="#">
+            <img src="./images/logo-1.png" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- about us side button -->
+          <div id="about-us-side-button">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- banner section starts -->
+      <section>
+        <div class="container">
+          <div class="banner row g-5">
+            <!-- banner informations -->
+            <div
+              class="banner-info col-6 d-flex flex-column justify-content-center align-items-start"
+            >
+              <h1>Brand, Design & Development Agency</h1>
+              <p class="banner-description">
+                Sit amet consectetur adipiscing elit sed do eiusmod tem
+                porincididunt ut labore et dolore magna aliqua. Quis psum
+                suspendisse ultrices gravida commodo viverra
+              </p>
+
+              <div class="btn">
+                Let's Talk Us
+                <span><i class="fa-solid fa-angle-right"></i></span>
+              </div>
+            </div>
+
+            <!-- banner image -->
+            <div class="banner-image col-6">
+              <img
+                src="./images/about-1.jpg"
+                alt="banner image"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- banner section ends -->
+
+      <!-- aside section starts -->
+      <aside id="side-bar">
+        <div>
+          <img src="./images/logo-1.png" alt="logo" class="logo" />
+          <!-- about us -->
+          <div class="aside-about-us">
+            <h4>About Us</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              ipsam alias quae cupiditate quas, neque eum magni impedit
+              asperiores.
+            </p>
+          </div>
+
+          <!-- contact us -->
+          <div class="aside-contact-us">
+            <h4>Contact Us</h4>
+            <ul class="aside-contact-list">
+              <li>
+                <span><i class="fa-solid fa-location-dot"></i></span>
+                <div>
+                  <p>121 King St, Melbourne VIC 3000,</p>
+                  <p>Australia.</p>
+                </div>
+              </li>
+              <li>
+                <span><i class="fa-regular fa-envelope"></i></span>
+                <div>
+                  <a href="mailto:info@gmail.com">info@mail.com</a>
+                  <a href="mailto:info@gmail.com">gmail@mail.com</a>
+                </div>
+              </li>
+              <li>
+                <span><i class="fa-solid fa-phone-flip"></i></span>
+                <div>
+                  <a href="tel:0123456789">+012 345 6789</a>
+                  <a href="tel:0123456789">+098 765 4321</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- remove the aside section -->
+          <div id="x-mark"><i class="fa-solid fa-xmark"></i></div>
+        </div>
+      </aside>
+      <!-- aside section ends -->
+    </header>
     <!-- header section ends -->
     <!-- main section starts -->
-    <main></main>
+    <main>
+      <!-- about us section starts -->
+      <section class="mg-top">
+        <div class="container">
+          <div class="about-us row g-5">
+            <!-- about us image -->
+            <div class="about-us-image col-6">
+              <img
+                class="br-250 img-fluid"
+                src="./images/about-1.jpg"
+                alt="about image"
+              />
+            </div>
+
+            <!-- about us info -->
+            <div class="about-us-info col-6">
+              <div class="section-header text-start">
+                <h4 class="section-title">About Us</h4>
+              </div>
+
+              <!-- about us description -->
+              <h2>We’re Creative Agency Since 1993</h2>
+              <h4 class="sub-heading">
+                Professional Design Agency to provide solutions
+              </h4>
+
+              <p class="section-description">
+                On the other hand denounce with righteous and dislike men who
+                beguile and demoralizes by the charms of pleasure thes moment,
+                so blinded by desire that they cannot
+              </p>
+
+              <ul class="about-us-list">
+                <li class="nav-item">
+                  <span class="me-2"><i class="fa-solid fa-check"></i></span>
+                  Digital Creative Agency
+                </li>
+                <li class="nav-item">
+                  <span class="me-2"><i class="fa-solid fa-check"></i></span>
+                  Professional Problem Solutions
+                </li>
+                <li class="nav-item">
+                  <span class="me-2"><i class="fa-solid fa-check"></i></span>
+                  Web Design & Development
+                </li>
+              </ul>
+
+              <button class="btn button-outline">
+                Learn More Us
+                <span><i class="fa-solid fa-chevron-right"></i></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- about us section ends -->
+    </main>
     <!-- main section ends -->
     <!-- footer section starts -->
     <footer></footer>
