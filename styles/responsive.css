@@ -1,0 +1,27 @@
+/* extra small screen */
+@media screen and (max-width: 575px) {
+}
+
+/* small screen */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+}
+
+/* medium screen */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+/* ==================================================================== 
+                      large scree starts 
+==================================================================== */
+
+/* large screen */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* extra large screen */
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+}
+
+/* x-extra large screen */
+@media screen and (min-width: 1400px) {
+}
